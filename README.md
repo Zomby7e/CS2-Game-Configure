@@ -14,3 +14,5 @@
 *Counter-Strike Global Offensive 是游戏主目录，查找方式是：在 Steam 客户端右键点击 Counter-Strike 2 游戏->属性->打开游戏目录*
 2. 进入游戏，在游戏设置内勾选“启用开发者控制台”，在控制台输入 `exec autoexec` 即可执行脚本。*`practice.cfg` 则输入 `exec practice`,文件名去掉后缀即可。*
 3. 使用则在 `游戏属性->高级启动项` 内输入 `+exec autoexec`。*autoexec是在游戏开启时默认执行的，无需输入启动项，其他文件名则需要，比如`+exec practice`*
+## 注意
+**现在 CS2 没有原始输入(raw input)相关的设定项和指令，需要进入系统设置关闭鼠标加速。（不同系统的项目名称可能不同）**
